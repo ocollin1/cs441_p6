@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements OptionsFragment.OnFragmentInteractionListener, TestsFragment.OnListFragmentInteractionListener, ResultsFragment.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements OptionsFragment.OnFragmentInteractionListener, TestsFragment.OnFragmentInteractionListener, ResultsFragment.OnFragmentInteractionListener {
 
     private TextView mTextMessage;
 
