@@ -25,15 +25,15 @@ public class MainActivity extends AppCompatActivity implements OptionsFragment.O
 
             switch (item.getItemId()) {
                 case R.id.navigation_options:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, optionsFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.options_frag , optionsFragment).commit();
                     mTextMessage.setText(R.string.title_options);
                     return true;
                 case R.id.navigation_tests:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, testsFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.tests_frag, testsFragment).commit();
                     mTextMessage.setText(R.string.title_test);
                     return true;
                 case R.id.navigation_results:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, resultsFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.results_frag, resultsFragment).commit();
                     mTextMessage.setText(R.string.title_results);
                     return true;
             }
